@@ -37,24 +37,29 @@ $(document).ready(function() {
 
 	//Каруселька
 	//Документация: http://owlgraphic.com/owlcarousel/
-	var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 4
-	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
-	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
-	});
+
+
+    $(document).ready(function() {
+     
+	    $("#owl-demo").owlCarousel({
+	     
+	    slideSpeed : 500,
+	    paginationSpeed : 700,
+	    singleItem:true,
+	    autoPlay:4000
+	     
+	    // "singleItem:true" is a shortcut for:
+	    // items : 1,
+	    // itemsDesktop : false,
+	    // itemsDesktopSmall : false,
+	    // itemsTablet: false,
+	    // itemsMobile : false
+     
+    	});
+     
+    });
+
+
 
 	//Кнопка "Наверх"
 	//Документация:

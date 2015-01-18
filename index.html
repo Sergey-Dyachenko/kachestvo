@@ -183,27 +183,35 @@
 				<div class="row" class="rotator_section">
 					
 					<div class="rotator">
-						<div class="row" id="row_buttons">
-							<ul class="rotator_buttons">
-								<li>
-									<a id="rotator_btn" href="#">
-										
-									</a>
-									<a id="rotator_btn" href="#">
-										
-									</a>
-									<a id="rotator_btn" href="#">
-										
-									</a>
-									<a id="rotator_btn" href="#">
-										
-									</a>
-									<a id="rotator_btn" href="#">
-										
-									</a>
-								</li>
+							<div id="owl-demo" >
+								
+								<div class="item"><img src="img/rotator/students.jpg">
+								</div>
+								<div class="item"> <img src="img/rotator/einstein.jpg"> </div>
+								<div class="item"> <img src="img/rotator/scientist.jpg"> </div>
+								<div class="item"><img src="img/rotator/noutbuk_i_knigi.jpg"></div>
+								
+							</div>	
+							<ul class="rotator_buttons" class="owl-controls clickable">
+									<li class="owl-pagination" >
+										<div id="rotator_btn" class="owl-page" >
+											
+										</div>
+										<div id="rotator_btn" class="owl-page" >
+											
+										</div>
+										<div id="rotator_btn" >
+											
+										</div>
+										<div id="rotator_btn" >
+											
+										</div>
+										<div id="rotator_btn" >
+											
+										</div>
+									</li>
 							</ul>
-						</div>
+							
 					</div>	
 					
 				</div>
@@ -228,7 +236,31 @@
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
 	<script src="js/common.js"></script>
+	<script src="js/application.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+	<script type="text/javascript">
+		    $(document).ready(function() {
+	     
+		    $("#owl-demo").owlCarousel({
+		     
+		    slideSpeed : 500,
+		    paginationSpeed : 700,
+		    singleItem:true,
+		    autoPlay:4000
+		     
+		    // "singleItem:true" is a shortcut for:
+		    // items : 1,
+		    // itemsDesktop : false,
+		    // itemsDesktopSmall : false,
+		    // itemsTablet: false,
+		    // itemsMobile : false
+	     
+	    	});
+     
+    	});
+
+	</script>	
+
 </body>
 </html>
