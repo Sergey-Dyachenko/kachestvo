@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 </head>
 <body>
 	<header class="top_header">
@@ -183,33 +184,21 @@
 				<div class="row" class="rotator_section">
 					
 					<div class="rotator">
-							<div id="owl-demo" >
+							<div class="demo">
 								
-								<div class="item"><img src="img/rotator/students.jpg">
-								</div>
-								<div class="item"> <img src="img/rotator/einstein.jpg"> </div>
-								<div class="item"> <img src="img/rotator/scientist.jpg"> </div>
-								<div class="item"><img src="img/rotator/noutbuk_i_knigi.jpg"></div>
-								
+								<div class="slick-slide" index="1"><img src="img/rotator/students.jpg">	</div>
+								<div class="slick-slide" index="2"><img src="img/rotator/einstein.jpg"> </div>
+								<div class="slick-slide" index="3"><img src="img/rotator/scientist.jpg"> </div>
+								<div class="slick-slide" index="4"><img src="img/rotator/noutbuk_i_knigi.jpg"></div>								
 							</div>	
-							<ul class="rotator_buttons" class="owl-controls clickable">
-									<li class="owl-pagination" >
-										<div id="rotator_btn" class="owl-page" >
-											
-										</div>
-										<div id="rotator_btn" class="owl-page" >
-											
-										</div>
-										<div id="rotator_btn" >
-											
-										</div>
-										<div id="rotator_btn" >
-											
-										</div>
-										<div id="rotator_btn" >
-											
-										</div>
-									</li>
+							
+							<ul class="slick-dots" style="display: block">
+								<li ><button data-role="none" type="button">1</button></li>
+								<li ><button data-role="none" type="button">2</button></li>
+								<li><button data-role="none" type="button">3</button></li>
+								<li><button data-role="none" type="button">4</button></li>
+								
+									
 							</ul>
 							
 					</div>	
@@ -237,30 +226,21 @@
 	<script src="libs/landing-nav/navigation.js"></script>
 	<script src="js/common.js"></script>
 	<script src="js/application.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 	<script type="text/javascript">
-		    $(document).ready(function() {
-	     
-		    $("#owl-demo").owlCarousel({
-		     
-		    slideSpeed : 500,
-		    paginationSpeed : 700,
-		    singleItem:true,
-		    autoPlay:4000
-		     
-		    // "singleItem:true" is a shortcut for:
-		    // items : 1,
-		    // itemsDesktop : false,
-		    // itemsDesktopSmall : false,
-		    // itemsTablet: false,
-		    // itemsMobile : false
-	     
-	    	});
-     
-    	});
-
-	</script>	
+        $(document).ready(function(){
+            $('.demo').slick({
+                 dots: true,
+				  infinite: true,
+				  speed: 900,
+				  slidesToShow: 1,
+				  autoplay:true
+				 
+            });
+        });
+    </script>
 
 </body>
 </html>

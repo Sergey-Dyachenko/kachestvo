@@ -39,7 +39,7 @@ $(document).ready(function() {
 	//Документация: http://owlgraphic.com/owlcarousel/
 
 
-    $(document).ready(function() {
+   /* $(document).ready(function() {
      
 	    $("#owl-demo").owlCarousel({
 	     
@@ -57,7 +57,7 @@ $(document).ready(function() {
      
     	});
      
-    });
+    });*/
 
 
 
