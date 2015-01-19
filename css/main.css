@@ -437,13 +437,14 @@ transform: translateY(3px);
 	;
 }
 
-.slick-slide img {
+.carusel img {
 	width:100%;
 	max-height: 350px;
 	display: block;
+	cursor: pointer;
 }
 
-ul.rotator_buttons {
+.owl-pagination {
 	width:150px;
 	display: inline-block;
 	height: 20px;
@@ -463,16 +464,30 @@ ul.rotator_buttons li{
 	list-style: none;
 }
 
+.owl-pagination{
+	border:1px solid red;
+	margin-bottom: 10px;
 
-div#rotator_btn {
-	display:inline-block;
-	width:16px;
-	height:16px;
-	background:url('../img/rotator_btn.png') no-repeat;
 }
 
 
-div#rotator_btn:hover{
+.owl-buttons{
+	position:relative;
+}
+
+
+.owl-page {
+	display:inline-block;
+	margin-right: 15px;
+
+	width:16px;
+	height:16px;
+	background:url('../img/rotator_btn.png') no-repeat;
+	margin-bottom: 100px;
+}
+
+
+.owl-page:hover{
 	background:url('../img/rotator_btn_click.png') no-repeat;
 	cursor: pointer;
 }
