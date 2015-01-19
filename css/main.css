@@ -425,7 +425,7 @@ transform: translateY(3px);
 }
 
 .rotator{
-	background-color: #9a9a9a;
+	background-color: #fff;
 	width:880px;
 	height:350px;
 	border: 1px solid yellow;
@@ -433,9 +433,6 @@ transform: translateY(3px);
 	position:relative;
 }
 
-.carousel{
-	;
-}
 
 .carusel img {
 	width:100%;
@@ -465,7 +462,6 @@ ul.rotator_buttons li{
 }
 
 .owl-pagination{
-	border:1px solid red;
 	margin-bottom: 10px;
 
 }
@@ -494,3 +490,46 @@ ul.rotator_buttons li{
 
 
 /*End style rotator*/
+
+/*Begin style sidebar_section*/
+ .col-md-3{
+background-color: ;
+border: 1px solid black;
+height: 260px;
+
+}
+
+.menu_simple ul {
+    margin: 0; 
+    padding: 0;
+    width:185px;
+    list-style-type: none;
+    border:1px solid #9ba3a7;
+}
+
+.menu_simple ul li a {
+    text-decoration: none;
+    color: #a3a3a3; 
+    padding: 10.5px 11px;
+    background-color: #fafafa;
+    display:block;
+}
+ 
+.menu_simple ul li a:visited {
+    color: white;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: white;
+    background-color: #218b9b;
+    font-size: 18px;
+    background-attachment: scroll;
+	background-color: ;
+	background-image:url(../img/sidebar_img/student.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+
+}
+
+
+/*End style sidebar_section*/
