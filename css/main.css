@@ -34,7 +34,7 @@ body {
 }
 
 .row, .col-md-12, .menu_row{
-	border:1px solid blue;
+	border:0px solid blue;
 	margin:0px;
 	padding:0px;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 .container{
-	border:1px solid blue;
+	border:0px solid blue;
 }
 
 /* Begin style header social*/
@@ -58,7 +58,7 @@ body {
 ul.soc_buttons  {
 	padding:0px;
 	list-style-type:none;
-	border: 1px solid red;
+	border: 0px solid red;
 	margin:0 auto;
 }
 
@@ -86,7 +86,7 @@ ul.soc_buttons  li{
 	background: #4c555e;
 	text-align: center;
 	color:#fff;
-	border: 1px solid #4c555e;
+	border: 0px solid #4c555e;
 	border-radius:32px;
 	display: block;
 }
@@ -117,13 +117,13 @@ a#google:hover{
 /*Begin style header logo*/
 
 .top_header{
-	background-color: #ededed;
+	background-color: #e2e2e2;
 }
 
 .logo_section{
 	padding:0px;
 	margin:20px auto 0px auto;
-	border:1px solid green;
+	border:0px solid green;
 	height:140px;
 
 }
@@ -133,7 +133,7 @@ a#google:hover{
 	
 }
 .col-md-2, .col-md-6, .col-md-4{
-	border:1px solid #ccc;
+	border:0px solid #ccc;
 }
 
 
@@ -144,7 +144,7 @@ a#google:hover{
 
 .logo_div{
 	margin-left:20px;
-	border:1px solid green;
+	border:0px solid green;
 }
 /*End style header logo*/
 
@@ -157,7 +157,7 @@ a#google:hover{
 	font-family: "AlfiosBold"; 
 	color:#218b9b;
 	font-size:36px;
-	border:1px solid red;
+	border:0px solid red;
 	position:absolute; 
 	top:-1px;
 	left:-24px;
@@ -167,18 +167,18 @@ a#google:hover{
 .credo_academy{
 	font-family:"AlfiosBoldItalic";
 	color:#c78143;
-	font-size:18px;
-	border:1px solid green;
+	font-size:23px;
+	border:0px solid green;
 	position:absolute; 
 	top:90px;
 	left:220px;
-	width:300px;
+	width:500px;
 
 }
 
 .search_col{
 	position:relative;
-	border:1px solid black;
+	border:0px solid black;
 }
 
 .search_block{
@@ -187,7 +187,7 @@ a#google:hover{
 	left:23px;
 }
 .search_input {
-   	border: 1px solid #65717c;
+   	border: 0px solid #65717c;
    	border-top-left-radius:6px;
    	border-bottom-left-radius:6px;
 	background-color: #65717c;
@@ -270,7 +270,7 @@ transform: translateY(3px);
 #menu {
     width: 1080px;
     margin: 12px auto;
-    border: 1px solid #218b9b;
+    border: 0px solid #218b9b;
     background-color: #218b9b;
  /*   background-image: linear-gradient(#444, #111);*/
     border-radius: 6px;
@@ -282,7 +282,7 @@ transform: translateY(3px);
 
 #menu li {
     float: left;
-    border-right: 1px solid #222;
+    border-right: 1px solid #ccc;
     box-shadow: 1px 0 0 #444;
     position: relative;
 }
@@ -431,14 +431,14 @@ transform: translateY(3px);
 /*Begin style rotator*/
 
 .rotator_section{
-	background-color: #f4d1d1;
+	background-color: #218b9b;
 }
 
 
 .rotator{
 	background-color: #f4d1d1;
 	width:100%;
-	border: 1px solid yellow;
+	border: 0px solid yellow;
 	margin: 20px auto;
 	position:relative;
 }
@@ -505,7 +505,7 @@ ul.rotator_buttons li{
 /*Begin style sidebar_section*/
  .col-md-3{
 background-color: ;
-border: 1px solid black;
+border: 0px solid black;
 height: 260px;
 
 }
@@ -515,23 +515,26 @@ height: 260px;
     padding: 0;
     width:185px;
     list-style-type: none;
-    border:1px solid #9ba3a7;
+    border:1px solid #e2e2e2;
     width:210px;
     border-radius: 10px;
+    height: 260px;
 }
 
 .menu_simple ul li {
-    border:1px solid #a3a3a3;
+    border:1px solid #e2e2e2;
+    height: 52px;
+
    }
 
    .menu_simple ul li:first-child  {
-    border:1px solid #9ba3a7;
+    border:0px solid #9ba3a7;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
    }
 
     .menu_simple ul li:last-child  {
-    border:1px solid #9ba3a7;
+    border:0px solid #9ba3a7;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:10px;
    }
@@ -674,7 +677,153 @@ height: 260px;
 
 .sidebar_section{
 	width:960px;
-	border:1px solid yellow;
+	border:0px solid yellow;
+}
+
+
+.prive{
+	width:64px;
+	height:64px;
+	background-color: #9a9a9a;
+	margin:50px auto 20px auto;
+	color:#fff;
+
+}
+
+.title_news{
+	color:#4c555e;
+	font-size:18px;
+	margin:0 auto;
+	width:200px;
+	font-family: Georgia;
+}
+
+.text{
+	font-size: 16px;
+	font-family: Georgia;
+	margin: 0px 0px 17px 0px;
+	display: block;
+	text-align: justify;
 }
 
 /*End style sidebar_section*/
+
+
+/*Begin style think_section*/
+
+.think_section{
+
+	border-top:1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	height: 115px;
+}
+
+.think_section h2{
+	font-family: Georgia;
+	font-style: italic;
+	color:#4c555e;
+	font-weight:normal;
+	text-align: center;
+}
+
+/*End style think_section*/
+
+
+/*Begin style text_section*/
+
+.text_section{
+
+	border-top:1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	height: 327px;
+	font-family: Georgia;
+	
+}
+
+.img_preview {
+	width:210px;
+	height:140px;
+	background-color: #9a9a9a;
+	margin: 50px auto;
+	color:#fff;
+	text-align: center;
+	line-height: 200px;
+}
+
+/*End style text_section*/
+
+/*Begin style links_section*/
+.links{
+	background-color: #ededed;
+	height: 370px;
+}
+
+
+.links_section{
+	font-size: 13px;
+	font-family: Georgia;
+	color:#4c555e;
+}
+
+.links_section ul{
+	list-style-type:none;
+	padding:0px;
+	}
+
+.links_section ul li{
+	list-style-type:none;
+	padding-top:10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #dddddd;
+}
+
+.subscribe_block{
+	margin:20px auto;
+}
+
+.search_input{
+	margin:5px auto;
+
+}
+
+.submit_button{
+	width:72px;
+	height:30px;
+	color: #fff;
+	background-color: #4c555e;
+	border: none;
+	margin:0px;
+	padding:0px;
+	border-radius:6px;
+	box-shadow: 0 5px #000;
+}
+
+/*End style links_section*/
+
+/*Begin style footer*/
+
+.footer_section{
+	height: 60px;
+	background-color:#218b9b; 
+}
+
+.contact_footer{
+	color:#fff;
+	padding-top:20px;
+	margin:auto 20px;
+	border:0px solid #fff;
+	float:left;
+}
+
+.contact_org{
+	text-decoration: underline;	
+	float:right;
+	margin:auto 43px;
+	color:#fff;
+}
+
+.contact_org a {
+	color:#fff;
+}
+
+/*End style footer*/
