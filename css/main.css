@@ -45,6 +45,8 @@ body {
 
 .container{
 	border:0px solid blue;
+	min-width: 960px;
+
 }
 
 /* Begin style header social*/
@@ -438,6 +440,7 @@ transform: translateY(3px);
 .rotator{
 	background-color: #f4d1d1;
 	width:100%;
+	height:auto;
 	border: 0px solid yellow;
 	margin: 20px auto;
 	position:relative;
@@ -446,7 +449,7 @@ transform: translateY(3px);
 
 .carusel img {
 	width:100%;
-	height:500px;
+	height:auto;
 	display: block;
 	cursor: pointer;
 	overflow: hidden;
