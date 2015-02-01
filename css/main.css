@@ -438,18 +438,18 @@ transform: translateY(3px);
 
 
 .rotator{
-	background-color: #f4d1d1;
-	width:100%;
-	height:auto;
+	background-color:#218b9b;
 	border: 0px solid yellow;
 	margin: 20px auto;
 	position:relative;
+	width:70%;
+	height:100%;
 }
 
 
 .carusel img {
 	width:100%;
-	height:auto;
+	height:330px;
 	display: block;
 	cursor: pointer;
 	overflow: hidden;
@@ -549,6 +549,7 @@ height: 260px;
     padding: 10.5px 11px;
     background-color: #fafafa;
     display:block;
+    font-size: 14px;
 }
  
 .menu_simple ul li a:visited {
