@@ -13,7 +13,7 @@
 *:-ms-input-placeholder {
 	color: #fff;
 	opacity: 1;
-}
+}menu
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -25,7 +25,17 @@ body textarea:required:valid {
 }
 body {
 	font-family: "RobotoRegular", sans-serif;
-	font-size: 16px;
+	font-size: 14px;
+}
+
+.page-wrap{
+	margin: 0 auto;
+    min-height: 100%;
+    min-width: 960px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    border:1px solid #ededed;
 }
 
 .container{
@@ -160,7 +170,7 @@ a#google:hover{
 	color:#218b9b;
 	font-size:36px;
 	border:0px solid red;
-	position:absolute; 
+	position:relative; 
 	top:-1px;
 	left:-24px;
 	line-height: 1.1;
@@ -270,7 +280,7 @@ transform: translateY(3px);
 }*/
 
 #menu {
-    width: 1080px;
+    width: 1000px;
     margin: 12px auto;
     border: 0px solid #218b9b;
     background-color: #218b9b;
@@ -297,15 +307,15 @@ transform: translateY(3px);
 }
 
 #menu li#last > a{
-	padding: 16px 47px;
+	padding: 16px 35px;
 
 }
 #menu a {
     float: left;
-    padding: 16px 25px;
+    padding: 1em 1.3em;
     color: #fff;
   /*  text-transform: uppercase;*/
-    font: bold 14px Arial, Helvetica;
+    font: bold 1em Arial, Helvetica;
     text-decoration: none;
     text-shadow: 0 1px 0 #000;
 }
@@ -373,8 +383,7 @@ transform: translateY(3px);
 
 #menu ul a {    
     padding: 10px;
-    min-width: 200px;
-    width: auto;
+    min-width: auto;
     _height: 10px; /*IE6 only*/
     display: block;
     white-space: nowrap;
@@ -442,8 +451,8 @@ transform: translateY(3px);
 	border: 0px solid yellow;
 	margin: 20px auto;
 	position:relative;
-	width:70%;
-	height:100%;
+	width:65%;
+	height:80%;
 }
 
 
@@ -552,9 +561,7 @@ height: 260px;
     font-size: 14px;
 }
  
-.menu_simple ul li a:visited {
-    color: white;
-}
+
  
 /*.menu_simple ul li .current*/
 
@@ -808,7 +815,9 @@ height: 260px;
 
 .footer_section{
 	height: 60px;
-	background-color:#218b9b; 
+	background-color:#218b9b;
+	bottom: 0px;
+	width: 100%; 
 }
 
 .contact_footer{
@@ -824,6 +833,7 @@ height: 260px;
 	float:right;
 	margin:auto 43px;
 	color:#fff;
+	text-align: right;
 }
 
 .contact_org a {
