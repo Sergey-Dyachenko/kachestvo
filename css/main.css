@@ -24,40 +24,28 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: "RobotoRegular", sans-serif;
+	 font-family: "SegoeUINormal", Helvetica, sans-serif; 
 	font-size: 14px;
 }
 
+
+.row, .col-md-12, .menu_row, .container, .page-wrap, ul.soc_buttons {
+	margin:0px auto;
+	padding:0px;
+}
+
 .page-wrap{
-	margin: 0 auto;
-    min-height: 100%;
+	min-height: 100%;
     min-width: 960px;
     position: relative;
-    text-align: left;
     width: 100%;
-    border:1px solid #ededed;
-}
+ }
 
-.container{
-	padding:0px;
-	margin:0px auto;
-}
-
-.row, .col-md-12, .menu_row{
-	border:0px solid blue;
-	margin:0px;
-	padding:0px;
-}
 
  h1{
 	text-align: center;
 }
 
-.container{
-	border:0px solid blue;
-	min-width: 960px;
-
-}
 
 /* Begin style header social*/
 .header_topline{
@@ -67,27 +55,10 @@ body {
 
 }
 
-ul.soc_buttons  {
-	padding:0px;
-	list-style-type:none;
-	border: 0px solid red;
-	margin:0 auto;
-}
 
-ul.soc_buttons  li{
+ul.soc_buttons  li {
 	display: inline-block;
 }
-
-.soc_buttons > a{
-	font-size:16px;
-	color:#fff;
-
-}
-
- .soc_buttons_round >a, .soc_buttons_round_first> a{
- 	color:#fff;
-
- }
 
 
 .soc_buttons_round, .soc_buttons_round_first{
@@ -97,10 +68,10 @@ ul.soc_buttons  li{
 	margin-left: 10px;
 	background: #4c555e;
 	text-align: center;
-	color:#fff;
-	border: 0px solid #4c555e;
 	border-radius:32px;
 	display: block;
+	color: #fff;
+
 }
  
  .soc_buttons_round_first{
@@ -116,8 +87,8 @@ a#vk:hover {
 	background-color:#00acee;
 }
 
-a#facebook:hover{
-	background-color:#45619d
+a#facebook:hover, a#facebook:focus{
+	background-color:#45619d;
 }
 
 a#google:hover{
@@ -133,9 +104,7 @@ a#google:hover{
 }
 
 .logo_section{
-	padding:0px;
 	margin:20px auto 0px auto;
-	border:0px solid green;
 	height:140px;
 
 }
@@ -144,10 +113,6 @@ a#google:hover{
 	height: 230px;
 	
 }
-.col-md-2, .col-md-6, .col-md-4{
-	border:0px solid #ccc;
-}
-
 
 .logo_img{
 	width:105px;
@@ -156,7 +121,6 @@ a#google:hover{
 
 .logo_div{
 	margin-left:20px;
-	border:0px solid green;
 }
 /*End style header logo*/
 
@@ -166,18 +130,17 @@ a#google:hover{
 }
 
 .name_academy {
-	font-family: "AlfiosBold"; 
+	font-family: "SegoeUINormal"; 
 	color:#218b9b;
 	font-size:36px;
-	border:0px solid red;
 	position:relative; 
 	top:-1px;
 	left:-24px;
 	line-height: 1.1;
-	width:526px;
+	width:556px;
 }
 .credo_academy{
-	font-family:"AlfiosBoldItalic";
+	font-family:"SegoeUILight";
 	color:#c78143;
 	font-size:23px;
 	border:0px solid green;
@@ -206,9 +169,6 @@ a#google:hover{
 	width:218px;
 	height:30px;
 	color:#fff;
-	font-size: 14px;
-	
-
 }
 
 .search_button{
@@ -242,17 +202,6 @@ transform: translateY(3px);
 
 /*Begin style menu*/
 
-/*.menu_row{
-	background-color:#218b9b;
-	width:960px;
-	height:50px;
-	color:#fff;
-	margin-left: 35px;
-	margin-top:18px;
-	border-top-right-radius:6px;
-	border-top-left-radius:6px;
-}
-*/
 
 #menu:before,
 #menu:after {
@@ -275,19 +224,13 @@ transform: translateY(3px);
     list-style: none;
 }
 
-/*.menu_row{
-	margin-right: 112px;
-}*/
 
 #menu {
     width: 1000px;
     margin: 12px auto;
     border: 0px solid #218b9b;
     background-color: #218b9b;
- /*   background-image: linear-gradient(#444, #111);*/
     border-radius: 6px;
-  /*  box-shadow: 0 1px 1px #777;*/
-
 }
 
 
@@ -314,17 +257,15 @@ transform: translateY(3px);
     float: left;
     padding: 1em 1.3em;
     color: #fff;
-  /*  text-transform: uppercase;*/
     font: bold 1em Arial, Helvetica;
     text-decoration: none;
     text-shadow: 0 1px 0 #000;
 }
 
 
-
 #menu li:hover > a {
-    color: #fafafa;
-    background-color:#444;
+   color: #fafafa;
+   background-color:#444;
    background-image: -webkit-linear-gradient(#444, #686868);
    background-image: -o-linear-gradient(#444, #686868);
    background-image: linear-gradient(#444, #686868);
@@ -383,7 +324,7 @@ transform: translateY(3px);
 
 #menu ul a {    
     padding: 10px;
-    min-width: auto;
+    min-width: 200px;
     _height: 10px; /*IE6 only*/
     display: block;
     white-space: nowrap;
@@ -525,7 +466,6 @@ height: 260px;
 .menu_simple ul {
     margin: 0; 
     padding: 0;
-    width:185px;
     list-style-type: none;
     border:1px solid #e2e2e2;
     width:210px;
@@ -556,133 +496,48 @@ height: 260px;
     text-decoration: none;
     color: #a3a3a3; 
     padding: 10.5px 11px;
-    background-color: #fafafa;
+    background: #fafafa 95% 50% no-repeat;
     display:block;
-    font-size: 14px;
-}
+    height: 52px;
+   }
  
-
- 
-/*.menu_simple ul li .current*/
 
 .menu_simple ul li a:hover {
     color: white;
-    background-color: #218b9b;
-    font-size: 18px;
-    background-attachment: scroll;
-	background-color: ;
-	background-image:url(../img/sidebar_img/student.png);
-	background-position: right top;
-	background-repeat: no-repeat;
+    background:#218b9b 95% 50% no-repeat;
+    font-size: 16px;
+   	height: 52px;
 
 }
 
-.menu_simple ul li a.galery {
+
+.menu_simple ul li a.galery,  .menu_simple ul li a.galery:hover {
     
-	background-image:url(../img/sidebar_img/galery.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
-
+	background-image: url(../img/sidebar_img/galery.png);
 }
 
-.menu_simple ul li a.galery:hover {
-    color: white;
-    background-color: #218b9b;
-    font-size: 18px;
-    background-attachment: scroll;
-	background-color: ;
-	background-image:url(../img/sidebar_img/galery.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
 
-}
-
-.menu_simple ul li a.news {
+.menu_simple ul li a.news, .menu_simple ul li a.news:hover {
     
 	background-image:url(../img/sidebar_img/news.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
-
 }
 
 
-.menu_simple ul li a.news:hover {
-    color: white;
-    background-color: #218b9b;
-    font-size: 18px;
-    background-attachment: scroll;
-	background-color: ;
-	background-image:url(../img/sidebar_img/news.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
-
-}
-
-
-.menu_simple ul li a.history {
+.menu_simple ul li a.history, .menu_simple ul li a.history:hover {
     
 	background-image:url(../img/sidebar_img/history.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
-
 }
 
 
-.menu_simple ul li a.history:hover {
-    color: white;
-    background-color: #218b9b;
-    font-size: 18px;
-    background-attachment: scroll;
-	background-color: ;
-	background-image:url(../img/sidebar_img/history.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
 
-}
-
-.menu_simple ul li a.vstup{
+.menu_simple ul li a.vstup, .menu_simple ul li a.vstup:hover{
 	background-image:url(../img/sidebar_img/vstup.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
-	 background-attachment: scroll;
 }
 
 
-
-.menu_simple ul li a.vstup:hover {
-    color: white;
-    background-color: #218b9b;
-    font-size: 18px;
-    background-attachment: scroll;
-	background-color: ;
-	background-image:url(../img/sidebar_img/vstup.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
-
-}
-
-
-.menu_simple ul li a.contacts{
+.menu_simple ul li a.contacts, .menu_simple ul li a.contacts:hover{
 	background-image:url(../img/sidebar_img/contacts.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
-	 background-attachment: scroll;
 }
-
-
-
-.menu_simple ul li a.contacts:hover{
-    color: white;
-    background-color: #218b9b;
-    font-size: 18px;
-    background-attachment: scroll;
-	background-color: ;
-	background-image:url(../img/sidebar_img/contacts.png);
-	background-position: 95% 50%;
-	background-repeat: no-repeat;
-
-}
-
 
 
 
@@ -722,15 +577,16 @@ height: 260px;
 
 /*Begin style think_section*/
 
-.think_section{
+.think_section, .text_section{
 
-	border-top:1px solid #e2e2e2;
+	border-top: 1px solid #e2e2e2;
 	border-bottom: 1px solid #e2e2e2;
 	height: 115px;
+	font-family: Georgia;
 }
 
 .think_section h2{
-	font-family: Georgia;
+	
 	font-style: italic;
 	color:#4c555e;
 	font-weight:normal;
@@ -744,11 +600,7 @@ height: 260px;
 
 .text_section{
 
-	border-top:1px solid #e2e2e2;
-	border-bottom: 1px solid #e2e2e2;
 	height: 327px;
-	font-family: Georgia;
-	
 }
 
 .img_preview {
